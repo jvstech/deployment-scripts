@@ -18,7 +18,8 @@ packageList = [
   "nmap",
   "python2.7",
   "socat",
-  "tcpflow"
+  "tcpflow",
+  "upx"
 ]
 
 # List of scripts to download
