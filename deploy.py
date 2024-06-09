@@ -13,7 +13,7 @@ packageList = [
   "gdb",
   "lib32stdc++6",
   "lib32z1",
-  "libpam-cracklib",
+  "libpam-cracklib",  # provides the /usr/share/dict/cracklib-small wordlist
   "netcat",
   "nmap",
   "python2.7",
@@ -28,7 +28,10 @@ scriptsList = [
 ]
 
 # List of other files to download
-downloadList = []
+downloadList = [
+  # rockyou.txt wordlist
+  "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
+]
 
 # List of users to create
 userList = []
